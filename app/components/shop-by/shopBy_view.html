@@ -1,0 +1,30 @@
+<div ng-controller="shopByCtrl as shopBy">
+
+<ul ng-init="shopBy.currentSection">
+<li ng-repeat="item in shopBy.data.sections">
+
+  <a href ng-click="shopBy.updateSection(item)">{{item.name}}</a>
+  <span ng-if="item.id == shopBy.currentSection"> << active</span>
+</li>
+</ul>
+
+<div ng-repeat="item in shopBy.data.sections" ng-show="shopBy.currentSection === item.id">
+<div class="" ng-repeat="product in item.products">
+  <img ng-src="{{product.img}}" width="200px"><br />
+  {{product.name}}
+</div>
+</div>
+
+
+
+
+<div class="mobile-only">
+  <select
+    ng-init="shopBy.selectedOption = {id: shopBy.currentSection}"
+    ng-options="option.name for option in shopBy.data.sections track by option.id"
+    ng-model="shopBy.selectedOption"
+    ng-change="shopBy.updateSection(shopBy.selectedOption)">
+  </select>
+
+</div>
+</div>

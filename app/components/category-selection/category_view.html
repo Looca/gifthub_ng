@@ -1,0 +1,12 @@
+<div ng-controller="categoriesCtrl as category">
+  <h1>{{ category.data.title}}</h1>
+
+  <a href ng-click="category.updateContent(category.data.giftsBtn.path)">
+    {{category.data.giftsBtn.text}}</a>
+  <ul>
+    <li ng-repeat="btn in category.data.shopBtns">
+      <a href="{{btn.url}}">{{btn.text}}</a>
+    </li>
+  </ul>
+  <ng-include src="'app/components/shop-by/shopBy_view.html'"></ng-include>
+</div>

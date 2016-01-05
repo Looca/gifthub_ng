@@ -1,0 +1,232 @@
+{
+  "gents": {
+    "name" : "gents",
+    "title": "The Gentlemen's christmass shop",
+    "path" : "gents",
+    "giftsBtn": {
+      "path": "ladies",
+      "text": "Gifts for the ladies"
+    },
+    "shopBtns": [
+      {
+        "name": "ladies",
+        "text": "shop ladies",
+        "url": "http://test.com/ladies"
+      },
+      {
+        "name": "gents",
+        "text": "shop gents",
+        "url": "http://test.com/gents"
+      }
+    ],
+    "sections": [{
+      "id": "shop-by-price",
+      "name": "Shop by Price",
+      "products": [
+        {
+          "name": "gents 10",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 11",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 12",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 13",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+    },
+    {
+      "id": "most-wanted",
+      "name": "Most Wanted",
+      "products": [
+        {
+          "name": "gents 20",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 21",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 22",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 23",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+    },
+    {
+      "id": "shop-by-party-season",
+      "name": "Shop party season",
+      "products": [
+        {
+          "name": "gents 30",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 31",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 32",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 33",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+    },
+    {
+      "id": "shop-all",
+      "name": "Shop all",
+      "products": [
+        {
+          "name": "gents 40",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 41",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 42",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "gents 43",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+      }, {
+        "id": "gift-card",
+        "name": "JW Git Card"
+      }
+    ]
+
+  },
+  "ladies": {
+    "name" : "ladies",
+    "title": "The Ladies's christmass shop",
+    "path" : "ladies",
+    "giftsBtn": {
+      "path": "gents",
+      "text": "Gifts for the gents"
+    },
+    "shopBtns": [
+      {
+        "name": "ladies",
+        "text": "shop ladies",
+        "url": "http://jackwills.com/ladies"
+      },
+      {
+        "name": "gents",
+        "text": "shop gents",
+        "url": "http://jackwills.com/gents"
+      }
+    ],
+    "sections": [{
+      "id": "shop-by-price",
+      "name": "Ladies: Shop by Price",
+      "products": [
+        {
+          "name": "ladies 10",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 11",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 12",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 13",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+    },
+    {
+      "id": "most-wanted",
+      "name": "Ladies: Most Wanted",
+      "products": [
+        {
+          "name": "ladies 20",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 21",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 22",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 23",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+    },
+    {
+      "id": "shop-by-party-season",
+      "name": "Ladies: Shop party season",
+      "products": [
+        {
+          "name": "ladies 30",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 31",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 32",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 33",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+    },
+    {
+      "id": "shop-all",
+      "name": "Ladies: Shop all",
+      "products": [
+        {
+          "name": "ladies 40",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 41",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 42",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        },
+        {
+          "name": "ladies 43",
+          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+        }
+      ]
+      }, {
+        "id": "gift-card",
+        "static": true,
+        "name": "JW Gift Card",
+        "url": "gift-card.html"
+      }
+    ]
+
+  }
+}
