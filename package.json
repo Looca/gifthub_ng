@@ -1,0 +1,25 @@
+{
+  "name": "gift-hub_ng",
+  "version": "0.0.1",
+  "description": "Angular JS based prototype for Gift Hub pages displaying varius products based on user selection of parent categor e.g: ladies or gents",
+  "main": "index.html",
+  "scripts": {
+    "start": "open http://localhost:4321 & httpster -p 4321"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Looca/gifthub_ng.git"
+  },
+  "keywords": [
+    "angular",
+    "prototype"
+  ],
+  "author": "Lukasz Pietraszek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Looca/gifthub_ng/issues"
+  },
+  "homepage": "https://github.com/Looca/gifthub_ng#readme",
+  "devDependencies": {
+  }
+}

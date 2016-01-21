@@ -1,7 +1,7 @@
 {
   "gents": {
     "name" : "gents",
-    "title": "The Gentlemen's christmass shop",
+    "title": "The Gentlemen's shop",
     "path" : "gents",
     "giftsBtn": {
       "path": "ladies",
@@ -25,19 +25,19 @@
       "products": [
         {
           "name": "gents 10",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-1.jpg"
         },
         {
           "name": "gents 11",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-2.jpg"
         },
         {
           "name": "gents 12",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-3.jpg"
         },
         {
           "name": "gents 13",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-4.jpg"
         }
       ]
     },
@@ -47,19 +47,19 @@
       "products": [
         {
           "name": "gents 20",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-5.jpg"
         },
         {
           "name": "gents 21",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-6.jpg"
         },
         {
           "name": "gents 22",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-7.jpg"
         },
         {
           "name": "gents 23",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-8.jpg"
         }
       ]
     },
@@ -69,53 +69,26 @@
       "products": [
         {
           "name": "gents 30",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-9.jpg"
         },
         {
           "name": "gents 31",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "gents 32",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "gents 33",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/business-q-c-800-600-10.jpg"
         }
       ]
     },
     {
-      "id": "shop-all",
-      "name": "Shop all",
-      "products": [
-        {
-          "name": "gents 40",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "gents 41",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "gents 42",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "gents 43",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        }
-      ]
-      }, {
         "id": "gift-card",
-        "name": "JW Git Card"
+        "static": true,
+        "name": "Gift Card",
+        "url": "#/"
       }
     ]
 
   },
   "ladies": {
     "name" : "ladies",
-    "title": "The Ladies's christmass shop",
+    "title": "The Ladies's shop",
     "path" : "ladies",
     "giftsBtn": {
       "path": "gents",
@@ -125,12 +98,12 @@
       {
         "name": "ladies",
         "text": "shop ladies",
-        "url": "http://jackwills.com/ladies"
+        "url": "http://test.com/ladies"
       },
       {
         "name": "gents",
         "text": "shop gents",
-        "url": "http://jackwills.com/gents"
+        "url": "http://test.com/gents"
       }
     ],
     "sections": [{
@@ -139,19 +112,19 @@
       "products": [
         {
           "name": "ladies 10",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/people-q-c-800-600-1.jpg"
         },
         {
           "name": "ladies 11",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/people-q-c-800-600-4.jpg"
         },
         {
           "name": "ladies 12",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/fashion-q-c-800-600-1.jpg"
         },
         {
           "name": "ladies 13",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/people-q-c-800-600-6.jpg"
         }
       ]
     },
@@ -161,19 +134,19 @@
       "products": [
         {
           "name": "ladies 20",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/people-q-c-800-600-7.jpg"
         },
         {
           "name": "ladies 21",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/people-q-c-800-600-8.jpg"
         },
         {
           "name": "ladies 22",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/people-q-c-800-600-9.jpg"
         },
         {
           "name": "ladies 23",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/people-q-c-800-600-10.jpg"
         }
       ]
     },
@@ -183,48 +156,27 @@
       "products": [
         {
           "name": "ladies 30",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/fashion-q-c-800-600-9.jpg"
         },
         {
           "name": "ladies 31",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/fashion-q-c-800-600-3.jpg"
         },
         {
           "name": "ladies 32",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/fashion-q-c-800-600-4.jpg"
         },
         {
           "name": "ladies 33",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
+          "img": "http://lorempixel.com/image_output/fashion-q-c-800-600-5.jpg"
         }
       ]
     },
     {
-      "id": "shop-all",
-      "name": "Ladies: Shop all",
-      "products": [
-        {
-          "name": "ladies 40",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "ladies 41",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "ladies 42",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        },
-        {
-          "name": "ladies 43",
-          "img": "http://static.hdw.eweb4.com/media/wp_400/1/5/42735.jpg"
-        }
-      ]
-      }, {
         "id": "gift-card",
         "static": true,
-        "name": "JW Gift Card",
-        "url": "gift-card.html"
+        "name": "Gift Card",
+        "url": "#/"
       }
     ]
 

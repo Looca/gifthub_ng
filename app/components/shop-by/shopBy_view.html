@@ -1,30 +1,30 @@
 <div ng-controller="shopByCtrl as shopBy">
+  <div class="mobile-only">
+    <form>
+      <div class="form-group">
+        <label for="mobile-nav">Go to category:</label>
+        <select id="mobile-nav" class="form-control"
+        ng-init="shopBy.selectedOption = {id: shopBy.currentSection}"
+        ng-options="option.name for option in shopBy.data.sections track by option.id"
+        ng-model="shopBy.selectedOption"
+        ng-change="shopBy.updateSection(shopBy.selectedOption)">
+        </select>
+      </div>
+    </form>
+  </div>
 
-<ul ng-init="shopBy.currentSection">
-<li ng-repeat="item in shopBy.data.sections">
-
-  <a href ng-click="shopBy.updateSection(item)">{{item.name}}</a>
-  <span ng-if="item.id == shopBy.currentSection"> << active</span>
-</li>
+<ul class="list list-inline" ng-init="shopBy.currentSection">
+  <li ng-repeat="item in shopBy.data.sections">
+    <a href ng-click="shopBy.updateSection(item)" ng-class="{'active': item.id == shopBy.currentSection}">{{item.name}}</a>
+  </li>
 </ul>
 
-<div ng-repeat="item in shopBy.data.sections" ng-show="shopBy.currentSection === item.id">
-<div class="" ng-repeat="product in item.products">
-  <img ng-src="{{product.img}}" width="200px"><br />
-  {{product.name}}
+<div class="row" ng-repeat="item in shopBy.data.sections" ng-show="shopBy.currentSection === item.id">
+  <div class="col-xs-12 col-md-6" ng-repeat="product in item.products">
+    <img class="img-responsive" ng-src="{{product.img}}">
+    <p>{{product.name}}</p>
+  </div>
 </div>
-</div>
 
 
-
-
-<div class="mobile-only">
-  <select
-    ng-init="shopBy.selectedOption = {id: shopBy.currentSection}"
-    ng-options="option.name for option in shopBy.data.sections track by option.id"
-    ng-model="shopBy.selectedOption"
-    ng-change="shopBy.updateSection(shopBy.selectedOption)">
-  </select>
-
-</div>
 </div>

@@ -1,12 +1,17 @@
-<div ng-controller="categoriesCtrl as category">
-  <h1>{{ category.data.title}}</h1>
-
-  <a href ng-click="category.updateContent(category.data.giftsBtn.path)">
-    {{category.data.giftsBtn.text}}</a>
-  <ul>
-    <li ng-repeat="btn in category.data.shopBtns">
-      <a href="{{btn.url}}">{{btn.text}}</a>
-    </li>
-  </ul>
-  <ng-include src="'app/components/shop-by/shopBy_view.html'"></ng-include>
+<div class="container">
+	<div ng-controller="categoriesCtrl as category">
+		<div class="jumbotron text-center">
+        	<h1>{{ category.data.title}}</h1>
+        	<a href class="btn btn-lg btn-success" ng-click="category.updateContent(category.data.giftsBtn.path)">
+    			{{category.data.giftsBtn.text}}
+    		</a>
+    		<div>
+	    		<small>External links:</small><br />
+				<span ng-repeat="btn in category.data.shopBtns">
+					<a class="btn btn-md btn-default" href="{{btn.url}}">{{btn.text}}</a>
+				</span>
+			</div>
+    	</div>
+		<ng-include src="'app/components/shop-by/shopBy_view.html'"></ng-include>
+	</div>
 </div>
